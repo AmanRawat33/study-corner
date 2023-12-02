@@ -72,7 +72,7 @@ const CourseList = () => {
           <p className="pl-6 mt-2 text-lg font-semibold">
             Doube click on any course to see its details
           </p>
-          <div className="p-6 flex flex-wrap md:justify-between justify-center">
+          <div className="p-6 flex flex-wrap justify-center md:justify-start">
             {filteredCourses?.map((course, idx) => {
               return (
                 <div key={course.id} onClick={() => handleCourseClick(idx + 1)}>

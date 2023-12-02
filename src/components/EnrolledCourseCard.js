@@ -34,6 +34,7 @@ const EnrolledCourseCard = ({ name, instructor, status, duration, source }) => {
           </p>
           <p className="font-bold">{status}</p>
           <ProgressBar />
+          
         </div>
       </div>
     </>
