@@ -17,12 +17,12 @@ const EnrolledCourseCard = ({ name, instructor, status, duration, source }) => {
   }, []);
   return (
     <>
-      <div className="mx-auto p-5 border-2 cursor-pointer w-[30%] h-auto mb-4 bg-slate-200 rounded-lg">
-        <div className="rounded-lg">
+      <div className="mx-auto p-5 border-2 cursor-pointer w-[50%] h-auto mb-4 bg-slate-200 rounded-lg">
+        <div className="rounded-lg mx-auto">
           <img
             src={source}
             alt="course-image"
-            className="w-[100%] rounded-lg"
+            className="w-[50%] rounded-lg mx-auto"
           />
         </div>
         <div className="">

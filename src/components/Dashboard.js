@@ -5,7 +5,7 @@ const Dashboard = () => {
   return (
     <>
       <h1 className="text-3xl font-bold p-5">Courses enrolled by you</h1>
-      <div className="flex flex-wrap">
+      <div className="">
         {courses?.map((course) => {
           return course.enrollmentStatus === "In Progress" ? (
             <EnrolledCourseCard

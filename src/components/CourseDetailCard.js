@@ -19,7 +19,7 @@ const CourseDetailCard = ({
   return (
     <>
       <div className="p-5 bg-[#faf8f8] font-thin font-mono ">
-        <div className="mx-auto w-[60%] border-2 p-5 bg-[#fbfefb] rounded-3xl shadow-2xl">
+        <div className="mx-auto w-[80%] md:w-[60%] border-2 p-5 bg-[#fbfefb] rounded-3xl shadow-2xl">
           <div className="w-[100%] ">
             <img
               src={thumbnail}
@@ -88,7 +88,7 @@ const CourseDetailCard = ({
               </div>
             ) : (
               <button
-                className="border-2 px-4 py-2 mt-2 text-lg hover:bg-[#1b1b1e] hover:text-white"
+                className="border-2 px-4 py-2 mt-2 text-lg hover:bg-black hover:text-white"
                 onClick={handleSyllabusClick}
               >
                 Show Syllabus
@@ -97,7 +97,7 @@ const CourseDetailCard = ({
           </p>
           {openSyllabus ? (
             <button
-              className="border-2 px-4 py-2 mt-2 text-lg hover:bg-[#1b1b1e] hover:text-white"
+              className="border-2 px-4 py-2 mt-2 text-lg hover:bg-black hover:text-white"
               onClick={handleSyllabusClick}
             >
               Hide Syllabus
