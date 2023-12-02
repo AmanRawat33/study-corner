@@ -1,9 +1,9 @@
 #How to set up the project on your desktop locally
 
-1)Fork this repositiory
-2)Clone the forked repository in the desired directory on your desktop
-3)Open the directory with a code editor such as VSCode
-4)Open the command line and write "npm install" to install all the required dependencies.
+1)Fork this repositiory .\
+2)Clone the forked repository in the desired directory on your desktop .\
+3)Open the directory with a code editor such as VSCode .\
+4)Open the command line and write "npm install" to install all the required dependencies. .\
 5)Run "npm start" to run the application on a localhost.
 
 #How to clone a repository 
