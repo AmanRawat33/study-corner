@@ -1,17 +1,19 @@
-import CourseList from "./CourseList";
+import CourseList from "./pagecomponents/CourseList";
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
-import CourseDetails from "./CourseDetails";
+import CourseDetails from "./pagecomponents/CourseDetails";
+import HomePage from "./pages/HomePage";
+import DetailsPage from "./pages/DetailsPage";
 const Body = () => {
   const appRouter = createBrowserRouter([
     {
       path: "/",
-      element: <CourseList />,
+      element: <HomePage />,
     },
     {
       path: "/details",
-      element: <CourseDetails />
-    }
+      element: <DetailsPage />,
+    },
   ]);
   return (
     <div>

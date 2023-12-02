@@ -1,8 +1,8 @@
 export const courses = [
   {
     id: 1,
-    name: "Introduction to React Native 1",
-    instructor: "John Doe 1",
+    name: "Introduction to React Native",
+    instructor: "John Doe",
     description:
       "Learn the basics of React Native development and build your first mobile app.",
     enrollmentStatus: "In Progress",
@@ -32,10 +32,10 @@ export const courses = [
   },
   {
     id: 2,
-    name: "Introduction to React Native 2",
-    instructor: "John Doe 2",
+    name: "React Native Deep Dive",
+    instructor: "John Doe ",
     description:
-      "Learn the basics of React Native development and build your first mobile app.",
+      "Dive deep into React Native learning about how it is used in industry.",
     enrollmentStatus: "Open",
     thumbnail:
       "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
@@ -63,16 +63,16 @@ export const courses = [
   },
   {
     id: 3,
-    name: "Introduction to React Native 3",
-    instructor: "John Doe 3",
+    name: "Advanced React Native",
+    instructor: "John Doe",
     description:
-      "Learn the basics of React Native development and build your first mobile app.",
+      "Revise the basics of React Native development and build your portfolio project app.",
     enrollmentStatus: "In Progress",
     thumbnail:
       "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
     duration: "8 weeks",
     schedule: "Mondays and Wednesday, 6:00 PM - 8:00 PM ",
-    location: "Online",
+    location: "Delhi",
     prerequisites: ["Basic JavaScript knowledge", "Familiarity with React"],
     syllabus: [
       {
@@ -94,16 +94,15 @@ export const courses = [
   },
   {
     id: 4,
-    name: "Introduction to React Native 4",
-    instructor: "John Doe 4",
-    description:
-      "Learn the basics of React Native development and build your first mobile app.",
+    name: "Introduction to React",
+    instructor: "Williams Edroh",
+    description: "Learn the basics of React and build your first web app.",
     enrollmentStatus: "Open",
     thumbnail:
       "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
     duration: "8 weeks",
     schedule: "Tuesdays and Thursdays, 6:00 PM - 8:00 PM ",
-    location: "Online",
+    location: "Bombay",
     prerequisites: ["Basic JavaScript knowledge", "Familiarity with React"],
     syllabus: [
       {
@@ -125,16 +124,15 @@ export const courses = [
   },
   {
     id: 5,
-    name: "Introduction to React Native 5",
-    instructor: "John Doe 5",
-    description:
-      "Learn the basics of React Native development and build your first mobile app.",
+    name: "Deep Dive of React",
+    instructor: "Williams Edroh",
+    description: "Learn the basics of React development and learn about hooks.",
     enrollmentStatus: "Open",
     thumbnail:
       "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
     duration: "8 weeks",
     schedule: "Tuesdays and Thursdays, 6:00 PM - 8:00 PM ",
-    location: "Online",
+    location: "Offline, Delhi",
     prerequisites: ["Basic JavaScript knowledge", "Familiarity with React"],
     syllabus: [
       {
@@ -156,10 +154,9 @@ export const courses = [
   },
   {
     id: 6,
-    name: "Introduction to React 1",
-    instructor: "John Doe 6",
-    description:
-      "Learn the basics of React development and build your first react app.",
+    name: "Advanced React",
+    instructor: "Williams Edroh",
+    description: "Learn advanced react",
     enrollmentStatus: "In Progress",
     thumbnail:
       "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
@@ -186,11 +183,11 @@ export const courses = [
   },
   {
     id: 7,
-    name: "Introduction to React 2",
-    instructor: "John Doe 7",
+    name: "HTML, CSS and JavaScript",
+    instructor: "Hannibal Jones",
     description:
-      "Learn the basics of React Native development and build your first mobile app.",
-    enrollmentStatus: "Open",
+      "Learn the nitty gritty of web development by learning the building blocks, HTML, CSS and JS.",
+    enrollmentStatus: "Closed",
     thumbnail:
       "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
     duration: "8 weeks",
@@ -217,11 +214,10 @@ export const courses = [
   },
   {
     id: 8,
-    name: "Introduction to React 3",
-    instructor: "John Doe 8",
-    description:
-      "Learn the basics of React Native development and build your first mobile app.",
-    enrollmentStatus: "Open",
+    name: "Advanced JavaScript",
+    instructor: "Hannibal Jones",
+    description: "Learn advanced JS for building amazing projects.",
+    enrollmentStatus: "In Progress",
     thumbnail:
       "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
     duration: "8 weeks",
@@ -248,10 +244,10 @@ export const courses = [
   },
   {
     id: 9,
-    name: "Introduction to React 4",
-    instructor: "John Doe 6",
+    name: "Bootstrap basics",
+    instructor: "Hannibal Jones",
     description:
-      "Learn the basics of React Native development and build your first mobile app.",
+      "Learn how to build beautiful websites without writing your own css",
     enrollmentStatus: "In Progress",
     thumbnail:
       "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
@@ -279,11 +275,71 @@ export const courses = [
   },
   {
     id: 10,
-    name: "Introduction to React 5",
-    instructor: "John Doe 10",
+    name: "TailwindCSS",
+    instructor: "Sai Kishore",
     description:
-      "Learn the basics of React Native development and build your first mobile app.",
+      "Learn building the most beautiful web applications with tailwindCSS",
     enrollmentStatus: "Open",
+    thumbnail:
+      "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
+    duration: "8 weeks",
+    schedule: "Tuesdays and Thursdays, 6:00 PM - 8:00 PM ",
+    location: "Online",
+    prerequisites: ["Basic JavaScript knowledge", "Familiarity with React"],
+    syllabus: [
+      {
+        week: 1,
+        topic: "Introduction to React Native ",
+        content:
+          "Overview of React Native, setting up your development environment.",
+      },
+      {
+        week: 2,
+        topic: "Building Your First App",
+        content: "Creating a simple mobile app using React Native components.",
+      },
+    ],
+    students: [
+      { id: 117, name: "Alice Johnson 10", email: "alice10@example.com" },
+      { id: 118, name: "Bob Smith 10", email: "bob10@example.com" },
+    ],
+  },
+  {
+    id: 11,
+    name: "AWS Cloud Practitioner",
+    instructor: "San Altman",
+    description: "Get into AWS",
+    enrollmentStatus: "In Progress",
+    thumbnail:
+      "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
+    duration: "8 weeks",
+    schedule: "Tuesdays and Thursdays, 6:00 PM - 8:00 PM ",
+    location: "Online",
+    prerequisites: ["Basic JavaScript knowledge", "Familiarity with React"],
+    syllabus: [
+      {
+        week: 1,
+        topic: "Introduction to React Native ",
+        content:
+          "Overview of React Native, setting up your development environment.",
+      },
+      {
+        week: 2,
+        topic: "Building Your First App",
+        content: "Creating a simple mobile app using React Native components.",
+      },
+    ],
+    students: [
+      { id: 117, name: "Alice Johnson 10", email: "alice10@example.com" },
+      { id: 118, name: "Bob Smith 10", email: "bob10@example.com" },
+    ],
+  },
+  {
+    id: 12,
+    name: "AWS Cloud Practitioner",
+    instructor: "Sai Kishore",
+    description: "Learn about AWS and get ready for the exam.",
+    enrollmentStatus: "Closed",
     thumbnail:
       "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
     duration: "8 weeks",

@@ -1,9 +1,9 @@
 import { useDispatch, useSelector } from "react-redux";
-import { toggleDashboardView } from "../utils/dashboardSlice";
+import { toggleDashboardView } from "../../utils/dashboardSlice";
 import { useEffect } from "react";
 const Header = () => {
   const dispatch = useDispatch();
-  const showDashboard = useSelector(store => store.dashboard.showDashboard);
+  const showDashboard = useSelector((store) => store.dashboard.showDashboard);
   const handleDashboardClick = () => {
     dispatch(toggleDashboardView(showDashboard));
   };

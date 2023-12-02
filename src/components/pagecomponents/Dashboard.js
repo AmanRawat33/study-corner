@@ -1,7 +1,7 @@
-import EnrolledCourseCard from "./EnrolledCourseCard"
-import { useDispatch, useSelector } from "react-redux"
+import EnrolledCourseCard from "./EnrolledCourseCard";
+import { useDispatch, useSelector } from "react-redux";
 const Dashboard = () => {
-  const courses = useSelector(store => store.courses);
+  const courses = useSelector((store) => store.courses);
   return (
     <>
       <h1 className="text-3xl font-bold p-5">Courses enrolled by you</h1>
@@ -21,6 +21,6 @@ const Dashboard = () => {
       </div>
     </>
   );
-}
+};
 
-export default Dashboard
+export default Dashboard;

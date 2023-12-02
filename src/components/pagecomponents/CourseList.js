@@ -1,11 +1,11 @@
 import Header from "./Header";
 import CourseCard from "./CourseCard";
 import Dashboard from "./Dashboard";
-import { courses } from "../utils/constants";
+import { courses } from "../../utils/constants";
 import { useDispatch, useSelector } from "react-redux";
-import { addCourses } from "../utils/courseSlice";
+import { addCourses } from "../../utils/courseSlice";
 import { useEffect, useState } from "react";
-import { addCourseID, toggleDetailsView } from "../utils/detailSlice";
+import { addCourseID, toggleDetailsView } from "../../utils/detailSlice";
 import { useNavigate } from "react-router-dom";
 const filterData = (searchText, displayCourses) => {
   return displayCourses.filter(
