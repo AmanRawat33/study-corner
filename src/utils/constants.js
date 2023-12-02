@@ -5,7 +5,7 @@ export const courses = [
     instructor: "John Doe 1",
     description:
       "Learn the basics of React Native development and build your first mobile app.",
-    enrollmentStatus: "Open",
+    enrollmentStatus: "In Progress",
     thumbnail:
       "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
     duration: "8 weeks",
@@ -67,7 +67,7 @@ export const courses = [
     instructor: "John Doe 3",
     description:
       "Learn the basics of React Native development and build your first mobile app.",
-    enrollmentStatus: "Open",
+    enrollmentStatus: "In Progress",
     thumbnail:
       "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
     duration: "8 weeks",
@@ -160,7 +160,7 @@ export const courses = [
     instructor: "John Doe 6",
     description:
       "Learn the basics of React development and build your first react app.",
-    enrollmentStatus: "Open",
+    enrollmentStatus: "In Progress",
     thumbnail:
       "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
     duration: "8 weeks",
@@ -252,7 +252,7 @@ export const courses = [
     instructor: "John Doe 6",
     description:
       "Learn the basics of React Native development and build your first mobile app.",
-    enrollmentStatus: "Open",
+    enrollmentStatus: "In Progress",
     thumbnail:
       "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
     duration: "8 weeks",

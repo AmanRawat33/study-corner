@@ -1,10 +1,23 @@
-import CourseList from "./CourseList"
+import CourseList from "./CourseList";
+import { createBrowserRouter } from "react-router-dom";
+import { RouterProvider } from "react-router-dom";
+import CourseDetails from "./CourseDetails";
 const Body = () => {
+  const appRouter = createBrowserRouter([
+    {
+      path: "/",
+      element: <CourseList />,
+    },
+    {
+      path: "/details",
+      element: <CourseDetails />
+    }
+  ]);
   return (
     <div>
-      <CourseList />
+      <RouterProvider router={appRouter} />
     </div>
-  )
-}
+  );
+};
 
-export default Body
+export default Body;
