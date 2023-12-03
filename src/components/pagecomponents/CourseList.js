@@ -49,18 +49,18 @@ const CourseList = () => {
 
       {!showDashboard ? (
         <div>
-          <div className="pl-6 pt-4">
+          <div className="pl-6 pt-2 md:pl-6 md:pt-4 w-screen mx-auto md:w-auto md:mx-2">
             <input
               type="text"
               placeholder="Search by course/instructor name"
-              className="px-4 py-2 outline-none border-2 mr-2 w-72"
+              className="px-4 py-2 outline-none border-2 mr-0 md:mr-2 w-[60%] md:w-72"
               value={searchText}
               onChange={(e) => {
                 setSearchText(e.target.value);
               }}
             />
             <button
-              className="px-4 py-2 bg-black text-white border-2"
+              className="px-4 py-2 bg-black text-white border-2 w-[25%] md:w-fit"
               onClick={() => {
                 const crs = filterData(searchText, displayCourses);
                 setFilteredCourses(crs);

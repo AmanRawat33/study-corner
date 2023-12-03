@@ -19,14 +19,14 @@ const CourseDetailCard = ({
   return (
     <>
       <div className="p-5 bg-[#faf8f8] font-thin font-mono ">
-        <div className="mx-auto w-[80%] md:w-[60%] border-2 p-5 bg-[#fbfefb] rounded-3xl shadow-2xl">
+        <div className="mx-auto w-[100%] md:w-[60%] border-2 p-5 bg-[#fbfefb] rounded-3xl shadow-2xl">
           <div className="w-[100%] ">
             <img
               src={thumbnail}
               className="mx-auto w-[50%] h-42 object-cover rounded-lg"
             />
           </div>
-          <h1 className="text-[42px] font-bold text-center text-[#393d3f] font-mono">
+          <h1 className="text-[36px] md:text-[42px] leading-tight md:leading-normal font-bold text-center text-[#393d3f] font-mono">
             {name}
           </h1>
           <h3 className="text-2xl font-semibold text-center mb-2 text-[#212227] font-mono">
