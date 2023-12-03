@@ -1,4 +1,17 @@
+<<<<<<< HEAD
 
+=======
+# How to set up the project on your desktop locally
+
+1)Fork this repositiory .\
+2)Clone the forked repository in the desired directory on your desktop .\
+3)Open the directory with a code editor such as VSCode .\
+4)Open the command line and write "npm install" to install all the required dependencies. .\
+5)Run "npm start" to run the application on a localhost.
+
+# How to clone a repository 
+Run "git clone [URL]" 
+>>>>>>> 14201be0f291fd98a5aeeb850239d15d9dc79f55
 
 # Getting Started with Create React App
 
